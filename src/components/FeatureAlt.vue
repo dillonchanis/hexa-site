@@ -65,7 +65,7 @@
             designing websites and applications. Your color choices have an
             impact. Instantly find out if you meet the
             <a
-              class="cursor-pointer inline-block font-semibold  border-b-2 border-transparent hover:border-yellow-300 transition ease-in-out duration-150"
+              class="text-cool-gray-300 cursor-pointer inline-block font-semibold  border-b-2 border-transparent hover:border-yellow-300 transition ease-in-out duration-150"
               href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
               target="_blank"
               rel="nonoopener noreferrer"

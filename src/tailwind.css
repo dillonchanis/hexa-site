@@ -32,10 +32,3 @@
   width: 0;
   border-top: 13.86px solid currentColor;
 }
-
-@layer utilities {
-  .text-gradient {
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
