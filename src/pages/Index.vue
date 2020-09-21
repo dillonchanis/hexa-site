@@ -15,7 +15,7 @@
           </p>
 
           <div class="max-w-md mx-auto mt-12">
-            <div class="flex justify-center items-center">
+            <div class="flex-col sm:flex-row flex justify-center items-center">
               <a
                 href="#download"
                 class="inline-flex items-center pb-1 text-base leading-6 font-bold border-b-2 border-transparent hover:border-pink-400 text-cool-gray-300 transition ease-in-out duration-150"
@@ -35,7 +35,7 @@
 
               <a
                 href="#download"
-                class="inline-flex items-center ml-12 pb-1 text-base leading-6 font-bold border-b-2 border-transparent hover:border-blue-400 text-cool-gray-300 transition ease-in-out duration-150"
+                class="inline-flex items-center mt-4 sm:mt-0 sm:ml-12 pb-1 text-base leading-6 font-bold border-b-2 border-transparent hover:border-blue-400 text-cool-gray-300 transition ease-in-out duration-150"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -57,16 +57,13 @@
         </div>
       </div>
 
-      <div class="relative mt-16">
+      <div class="relative px-3 mt-16">
         <div class="max-w-screen-md mx-auto">
-          <g-image
-            src="/app-screenshot.png"
-            alt="App screenshot"
-          />
+          <g-image src="/app-screenshot.png" alt="App screenshot" />
         </div>
       </div>
 
-      <div class="pt-16 pb-8">
+      <div>
         <div
           class="max-w-screen-xl mx-auto pt-16 pb-20 px-4 sm:px-6 md:pb-24 lg:px-8"
         >
@@ -197,7 +194,7 @@
 </template>
 
 <script>
-import DownloadCTA from '~/components/Download.vue'
+import DownloadCTA from "~/components/Download.vue";
 
 export default {
   components: { DownloadCTA },

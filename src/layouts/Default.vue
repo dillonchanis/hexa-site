@@ -84,7 +84,7 @@
             </g-link>
             <g-link
               to="/#download"
-              class="font-medium text-cool-gray-400 hover:text-cool-gray-100 transition duration-150 ease-in-out"
+              class="hidden sm:inline font-medium text-cool-gray-400 hover:text-cool-gray-100 transition duration-150 ease-in-out"
             >
               Download
             </g-link>
