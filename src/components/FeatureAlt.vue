@@ -210,8 +210,8 @@
               fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
             />
           </svg>
-          <img
-            class="relative mx-auto rounded shadow-lg opacity-75"
+          <g-image
+            class="relative mx-auto rounded shadow-lg opacity-75 p-6 sm:p-0"
             width="400"
             src="/color-dropper.png"
             alt="Hexa's color dropper hovering over some text."
@@ -341,7 +341,7 @@
             </ul>
           </div>
 
-          <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+          <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1 p-4 sm:p-0">
             <svg
               class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
               width="784"
@@ -375,7 +375,7 @@
               />
             </svg>
             <g-image
-              class="relative mx-auto w-88 opacity-90"
+              class="relative mx-auto w-88 opacity-90 sm:p-0"
               src="/features.png"
               alt="Showing off application features like hex color inputs, palette viewer and spacing tool."
             />
