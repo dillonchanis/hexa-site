@@ -168,7 +168,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Hexa | Roadmap",
+    title: "Roadmap",
   },
 };
 </script>

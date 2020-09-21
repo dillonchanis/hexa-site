@@ -79,7 +79,7 @@ import FeatureAlt from '~/components/FeatureAlt.vue';
 export default {
   components: { DownloadCTA, FeatureAlt },
   metaInfo: {
-    title: "Hexa | Color Contrast Tool",
+    title: "Color Contrast Tool",
   },
 };
 </script>
