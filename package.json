@@ -1,0 +1,17 @@
+{
+  "name": "hexa-site",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@tailwindcss/ui": "0.6.2",
+    "gridsome": "^0.7.0",
+    "tailwindcss": "1.8.10"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "3.0.1"
+  }
+}
