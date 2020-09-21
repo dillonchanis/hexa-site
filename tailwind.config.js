@@ -36,7 +36,8 @@ module.exports = {
       },
       spacing: {
         ...defaultTheme.spacing,
-        88: '22rem'
+        88: '22rem',
+        100: '25rem'
       },
       opacity: {
         ...defaultTheme.opacity,

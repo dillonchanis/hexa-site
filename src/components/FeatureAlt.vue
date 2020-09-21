@@ -211,8 +211,7 @@
             />
           </svg>
           <g-image
-            class="relative mx-auto rounded shadow-lg opacity-75 p-6 sm:p-0"
-            width="400"
+            class="relative mx-auto rounded shadow-lg opacity-75 p-6 sm:p-0 w-100"
             src="/color-dropper.png"
             alt="Hexa's color dropper hovering over some text."
           />
