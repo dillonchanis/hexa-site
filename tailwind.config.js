@@ -34,6 +34,14 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      spacing: {
+        ...defaultTheme.spacing,
+        88: '22rem'
+      },
+      opacity: {
+        ...defaultTheme.opacity,
+        90: '0.90'
+      }
     },
   },
   variants: {},
