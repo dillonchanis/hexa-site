@@ -1,29 +1,30 @@
 <template>
   <div
-    class="max-w-screen-xl mx-auto py-8 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
+    class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
   >
     <h2
-      class="text-3xl leading-9 font-extrabold tracking-tight text-cool-gray-200 sm:text-4xl sm:leading-10"
+      class="text-3xl font-extrabold leading-9 tracking-tight text-cool-gray-200 sm:text-4xl sm:leading-10"
     >
       Still interested?
       <br />
       <span
-        class="bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-500"
+        class="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-500"
       >
         Download for free today.
       </span>
     </h2>
-    <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
+    <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
       <div class="inline-flex rounded-md shadow">
         <a
-          href="#"
-          class="w-36 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-cool-gray-600 hover:bg-pink-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+          href="/Hexa-0.1.0.dmg"
+          rel="nofollow"
+          class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md w-36 bg-cool-gray-600 hover:bg-pink-500 focus:outline-none focus:shadow-outline"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 48 58"
-            class="w-3 h-auto text-cool-gray-200 inline-block mr-2"
+            class="inline-block w-3 h-auto mr-2 text-cool-gray-200"
           >
             <path
               fill="currentColor"
@@ -33,16 +34,17 @@
           Mac
         </a>
       </div>
-      <div class="ml-3 inline-flex rounded-md shadow">
+      <div class="inline-flex ml-3 rounded-md shadow">
         <a
-          href="#"
-          class="w-36 inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-cool-gray-600 hover:bg-blue-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
+          href="/Hexa-Setup-0.1.0.exe"
+          rel="nofollow"
+          class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md w-36 bg-cool-gray-600 hover:bg-blue-500 focus:outline-none focus:shadow-outline"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 48 50"
-            class="w-3 h-auto inline-block mr-2 text-cool-gray-200"
+            class="inline-block w-3 h-auto mr-2 text-cool-gray-200"
           >
             <path
               fill="currentColor"
