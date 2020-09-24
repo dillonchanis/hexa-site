@@ -1,10 +1,10 @@
 <template>
   <div id="features" class="py-16 overflow-hidden lg:py-24">
     <div
-      class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl"
+      class="relative max-w-xl px-4 mx-auto sm:px-6 lg:px-8 lg:max-w-screen-xl"
     >
       <svg
-        class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
+        class="absolute hidden transform -translate-x-1/2 lg:block left-full -translate-y-1/4"
         width="404"
         height="784"
         fill="none"
@@ -38,12 +38,12 @@
 
       <div class="relative">
         <h2
-          class="text-center text-3xl leading-8 font-extrabold tracking-tight text-cool-gray-100 sm:text-4xl sm:leading-10"
+          class="text-3xl font-extrabold leading-8 tracking-tight text-center text-cool-gray-100 sm:text-4xl sm:leading-10"
         >
           What is it?
         </h2>
         <p
-          class="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-cool-gray-400"
+          class="max-w-3xl mx-auto mt-4 text-xl leading-7 text-center text-cool-gray-400"
         >
           Hexa is a tool I wanted when designing and developing applications.
           Its a quick way to check color contrast ratios to ensure they meet
@@ -56,7 +56,7 @@
       >
         <div class="relative">
           <h3
-            class="text-2xl leading-8 font-extrabold text-cool-gray-100 tracking-tight sm:text-3xl sm:leading-9"
+            class="text-2xl font-extrabold leading-8 tracking-tight text-cool-gray-100 sm:text-3xl sm:leading-9"
           >
             Ensure you meet standards
           </h3>
@@ -65,7 +65,7 @@
             designing websites and applications. Your color choices have an
             impact. Instantly find out if you meet the
             <a
-              class="text-cool-gray-300 cursor-pointer inline-block font-semibold  border-b-2 border-transparent hover:border-yellow-300 transition ease-in-out duration-150"
+              class="inline-block font-semibold transition duration-150 ease-in-out border-b-2 border-transparent cursor-pointer text-cool-gray-300 hover:border-yellow-300"
               href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
               target="_blank"
               rel="nonoopener noreferrer"
@@ -79,10 +79,10 @@
               <div class="flex">
                 <div class="flex-shrink-0">
                   <div
-                    class="hexagon flex items-center justify-center text-indigo-500 bg-indigo-500 border-indigo-500 text-white"
+                    class="flex items-center justify-center text-white text-indigo-500 bg-indigo-500 border-indigo-500 hexagon"
                   >
                     <svg
-                      class="h-6 w-6 text-white"
+                      class="w-6 h-6 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -97,7 +97,7 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg leading-6 font-medium text-cool-gray-100">
+                  <h4 class="text-lg font-medium leading-6 text-cool-gray-100">
                     Cross Platform
                   </h4>
                   <p class="mt-2 text-base leading-6 text-cool-gray-400">
@@ -111,10 +111,10 @@
               <div class="flex">
                 <div class="flex-shrink-0">
                   <div
-                    class="hexagon flex items-center justify-center text-indigo-500 bg-indigo-500 border-indigo-500 text-white"
+                    class="flex items-center justify-center text-white text-indigo-500 bg-indigo-500 border-indigo-500 hexagon"
                   >
                     <svg
-                      class="h-6 w-6 text-white"
+                      class="w-6 h-6 text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -130,7 +130,7 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg leading-6 font-medium text-cool-gray-100">
+                  <h4 class="text-lg font-medium leading-6 text-cool-gray-100">
                     Pixel Magnifier
                   </h4>
                   <p class="mt-2 text-base leading-6 text-cool-gray-400">
@@ -144,10 +144,10 @@
               <div class="flex">
                 <div class="flex-shrink-0">
                   <div
-                    class="hexagon flex items-center justify-center text-indigo-500 bg-indigo-500 border-indigo-500 text-white"
+                    class="flex items-center justify-center text-white text-indigo-500 bg-indigo-500 border-indigo-500 hexagon"
                   >
                     <svg
-                      class="h-6 w-6 text-white"
+                      class="w-6 h-6 text-white"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -163,7 +163,7 @@
                   </div>
                 </div>
                 <div class="ml-4">
-                  <h4 class="text-lg leading-6 font-medium text-cool-gray-100">
+                  <h4 class="text-lg font-medium leading-6 text-cool-gray-100">
                     WCAG Contrast Checker
                   </h4>
                   <p class="mt-2 text-base leading-6 text-cool-gray-400">
@@ -177,9 +177,9 @@
           </ul>
         </div>
 
-        <div class="mt-10 -mx-4 relative lg:mt-0">
+        <div class="relative mt-10 -mx-4 lg:mt-0">
           <svg
-            class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+            class="absolute transform -translate-x-1/2 translate-y-16 left-1/2 lg:hidden"
             width="784"
             height="404"
             fill="none"
@@ -211,7 +211,7 @@
             />
           </svg>
           <g-image
-            class="relative mx-auto rounded shadow-lg opacity-75 p-6 sm:p-0 w-100"
+            class="relative p-6 mx-auto rounded shadow-lg opacity-75 sm:p-0 w-100"
             src="/color-dropper.png"
             alt="Hexa's color dropper hovering over some text."
           />
@@ -219,7 +219,7 @@
       </div>
 
       <svg
-        class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
+        class="absolute hidden transform translate-x-1/2 translate-y-12 lg:block right-full"
         width="404"
         height="784"
         fill="none"
@@ -257,7 +257,7 @@
         >
           <div class="lg:col-start-2">
             <h3
-              class="text-2xl leading-8 font-extrabold text-cool-gray-100 tracking-tight sm:text-3xl sm:leading-9"
+              class="text-2xl font-extrabold leading-8 tracking-tight text-cool-gray-100 sm:text-3xl sm:leading-9"
             >
               Tailwind Extras
             </h3>
@@ -271,10 +271,10 @@
                 <div class="flex">
                   <div class="flex-shrink-0">
                     <div
-                      class="hexagon flex items-center justify-center text-indigo-500 bg-indigo-500 border-indigo-500 text-white"
+                      class="flex items-center justify-center text-white text-indigo-500 bg-indigo-500 border-indigo-500 hexagon"
                     >
                       <svg
-                        class="h-6 w-6 text-white"
+                        class="w-6 h-6 text-white"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -291,7 +291,7 @@
                   </div>
                   <div class="ml-4">
                     <h4
-                      class="text-lg leading-6 font-medium text-cool-gray-100"
+                      class="text-lg font-medium leading-6 text-cool-gray-100"
                     >
                       Default Palette
                     </h4>
@@ -306,10 +306,10 @@
                 <div class="flex">
                   <div class="flex-shrink-0">
                     <div
-                      class="hexagon flex items-center justify-center text-indigo-500 bg-indigo-500 border-indigo-500 text-white"
+                      class="flex items-center justify-center text-white text-indigo-500 bg-indigo-500 border-indigo-500 hexagon"
                     >
                       <svg
-                        class="h-6 w-6 text-white"
+                        class="w-6 h-6 text-white"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -325,7 +325,7 @@
                   </div>
                   <div class="ml-4">
                     <h4
-                      class="text-lg leading-6 font-medium text-cool-gray-100"
+                      class="text-lg font-medium leading-6 text-cool-gray-100"
                     >
                       Spacing Tool
                     </h4>
@@ -337,12 +337,47 @@
                   </div>
                 </div>
               </li>
+              <li class="mt-10">
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <div
+                      class="flex items-center justify-center text-indigo-500 bg-indigo-500 border-indigo-500 hexagon"
+                    >
+                      <svg
+                        class="w-6 h-6 text-white"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-4">
+                    <h4
+                      class="text-lg font-medium leading-6 text-cool-gray-100"
+                    >
+                      Color Autocomplete
+                    </h4>
+                    <p class="mt-2 text-base leading-6 text-cool-gray-400">
+                      Just type in the path of the Tailwind color into the input
+                      to automatically convert it to it's hex value. 
+                    </p>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
 
-          <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1 p-4 sm:p-0">
+          <div class="relative p-4 mt-10 -mx-4 lg:mt-0 lg:col-start-1 sm:p-0">
             <svg
-              class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+              class="absolute transform -translate-x-1/2 translate-y-16 left-1/2 lg:hidden"
               width="784"
               height="404"
               fill="none"
